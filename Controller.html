@@ -1,0 +1,27 @@
+<!-- Replace your-device-ID-goes-here with your actual device ID
+and replace your-access-token-goes-here with your actual access token-->
+<!DOCTYPE>
+<html>
+  <body>
+  <center>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/53ff69065067544812300687/rccar?access_token=c5d10453039608a5d95a31dcada7117ead8eca96" method="POST">
+    Tell your CAR what to do!<br>
+    <br>
+    <input type="radio" name="args" value="rc,STOP">sTOP.
+    <br>
+    <input type="radio" name="args" value="rc,BACK">BACK.
+    <br>
+    <input type="radio" name="args" value="rc,FORWARD">FORWARD.
+    <br>
+    <input type="radio" name="args" value="rc,RIGHT">RIGHT.
+    <br>
+    <input type="radio" name="args" value="rc,LEFT">LEFT.
+    <br>
+    <input type="submit" value="Do it!">
+  </form>
+  </center>
+  </body>
+</html>
